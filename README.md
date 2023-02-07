@@ -19,7 +19,7 @@ This API is for the basic operation for the CRUD in Neo4j using Python-Flask.
 ## Create Person entity to the Database 
 
 __Postman Screenshot__
-<img src="https://user-images.githubusercontent.com/81594307/217151995-b2979e7c-b010-47d4-9b02-aff3ca0e0ee9.jpeg" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/81594307/217151995-b2979e7c-b010-47d4-9b02-aff3ca0e0ee9.jpeg" width="400" height="400" />
 
 
 __Database Screenshot___
