@@ -5,7 +5,7 @@ This API is for the basic operation for the CRUD in Neo4j using Python-Flask.
 
 ## Table of Contents
 
-1. [Dependencies](#dependencies)
+1. [Create Person entity to the Database](#Create-Person-entity-to-the-Database)
 1. [Getting Started](#getting-started)
 1. [Commands](#commands)
 1. [Database](#database)
@@ -14,7 +14,7 @@ This API is for the basic operation for the CRUD in Neo4j using Python-Flask.
 1. [Testing](#testing)
 1. [Lint](#lint)
 1. [Format](#format)
-1. [Swagger](#swagger)
+1. [Display the data in the database](#Display-the-data-in-the-database)
 
 ## Create Person entity to the Database 
 
@@ -98,7 +98,7 @@ __Database Screenshot___
 ![WhatsApp Image 2023-02-07 at 12 46 01](https://user-images.githubusercontent.com/81594307/217152715-c6ee576b-8b6e-4b67-b861-423925013ab0.jpeg)
 
 
-## Display
+## Display the data in the database
 
 __Postman Screenshot__
 ![image](https://user-images.githubusercontent.com/81594307/217153558-81b61291-0904-42d9-b026-4636bcfeb4a9.png)
