@@ -23,7 +23,7 @@ __Postman Screenshot__
 
 
 __Database Screenshot___
-![WhatsApp Image 2023-02-07 at 12 28 11](https://user-images.githubusercontent.com/81594307/217152004-c2543985-5973-4b80-adbe-5cacb29373e8.jpeg)
+<img src="https://user-images.githubusercontent.com/81594307/217152004-c2543985-5973-4b80-adbe-5cacb29373e8.jpeg" width="800" height="450" />
 
 ## Dependencies
 
