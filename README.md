@@ -71,6 +71,9 @@ Check it out if you want a quick tutorial on how to use Flask with this architec
 ![WhatsApp Image 2023-02-07 at 12 46 01](https://user-images.githubusercontent.com/81594307/217152715-c6ee576b-8b6e-4b67-b861-423925013ab0.jpeg)
 
 
+## Display
+
+![image](https://user-images.githubusercontent.com/81594307/217153558-81b61291-0904-42d9-b026-4636bcfeb4a9.png)
 
 
 
