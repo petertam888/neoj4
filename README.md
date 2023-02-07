@@ -12,7 +12,7 @@ This API is for the basic operation for the CRUD in Neo4j using Python-Flask.
 1. [Define the relationship between Person and Company to Database](#application-structure)
 1. [Update the company information that in Database](#development)
 1. [Delete the relationship existed in Database](#testing)
-1. [Delete the nodes (data) in Database](#Delete-the-nodes-(data)-in-Database)
+1. [Delete the nodes in Database](#Delete-the-nodes-in-Database)
 1. [Display the data in database](#Display-the-data-in-the-database)
 
 ## Create Person entity to the Database 
@@ -87,7 +87,7 @@ __Database Screenshot___
 ![WhatsApp Image 2023-02-07 at 12 44 55](https://user-images.githubusercontent.com/81594307/217152648-0d2ba93a-e0b8-4371-98dc-0137f182b602.jpeg)
 
 
-## Delete the nodes (data) in Database
+## Delete the nodes in Database
 
 __Postman Screenshot__
 ![WhatsApp Image 2023-02-07 at 12 45 51](https://user-images.githubusercontent.com/81594307/217152690-ff6b1dcb-00b7-4f9c-8080-5a30b1e03ba0.jpeg)
