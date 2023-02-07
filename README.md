@@ -21,8 +21,8 @@ This API is for the basic operation for the CRUD in Neo4j using Python-Flask.
 __Postman Screenshot__
 <img src="https://user-images.githubusercontent.com/81594307/217151995-b2979e7c-b010-47d4-9b02-aff3ca0e0ee9.jpeg" width="800" height="450" />
 
-
 __Database Screenshot___
+
 <img src="https://user-images.githubusercontent.com/81594307/217152004-c2543985-5973-4b80-adbe-5cacb29373e8.jpeg" width="800" height="450" />
 
 ## Dependencies
