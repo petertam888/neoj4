@@ -5,16 +5,15 @@ This API is for the basic operation for the CRUD in Neo4j using Python-Flask.
 
 ## Table of Contents
 
-1. [Create Person entity to the Database](#Create-Person-entity-to-the-Database)
-1. [Getting Started](#getting-started)
-1. [Commands](#commands)
-1. [Database](#database)
-1. [Application Structure](#application-structure)
-1. [Development](#development)
-1. [Testing](#testing)
-1. [Lint](#lint)
-1. [Format](#format)
-1. [Display the data in the database](#Display-the-data-in-the-database)
+1. [Create a single Person node to Database ](#Create-Person-entity-to-the-Database)
+1. [Create Persons nodes by json file to Database](#getting-started)
+1. [Create a single Company node to Database](#commands)
+1. [Create Company nodes by json file to Database](#database)
+1. [Define the relationship between Person and Company to Database](#application-structure)
+1. [Update the company information that in Database](#development)
+1. [Delete the relationship existed in Database](#testing)
+1. [Delete the nodes (data) in Database](#lint)
+1. [Display the data in database](#Display-the-data-in-the-database)
 
 ## Create Person entity to the Database 
 
@@ -88,7 +87,7 @@ __Database Screenshot___
 ![WhatsApp Image 2023-02-07 at 12 44 55](https://user-images.githubusercontent.com/81594307/217152648-0d2ba93a-e0b8-4371-98dc-0137f182b602.jpeg)
 
 
-## Dependencies
+## Delete the nodes (data) in Database
 
 __Postman Screenshot__
 ![WhatsApp Image 2023-02-07 at 12 45 51](https://user-images.githubusercontent.com/81594307/217152690-ff6b1dcb-00b7-4f9c-8080-5a30b1e03ba0.jpeg)
