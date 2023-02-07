@@ -16,8 +16,8 @@ session = driver.session()
 api = Flask(__name__)
 
 
-# starting from here
-@api.route("/company/<string:company_name>&<string:code>&<string:profit>", methods=["GET", "POST"]) #done
+
+@api.route("/company/<string:company_name>&<string:code>&<string:profit>", methods=["GET", "POST"])
 def create_company_node(company_name, code, profit):
     query = """
     create (c:Company {Company: $company_name, Code: $code, Profit: $profit})
@@ -26,7 +26,7 @@ def create_company_node(company_name, code, profit):
     try:
         session.run(query, map)
 
-        return (f"The data is imported : {company_name} , and {code} current stock price is - {profit}")
+        return (f"The data is imported : {company_name} , and {code} net profit is {profit}")
     except Exception as e:
         return (str(e))
 
@@ -49,7 +49,7 @@ def create_company_node_by_file():
 
     return "Success !!!"
 
-@api.route("/<string:title>/<string:name>&<string:born>&<string:company_name>", methods=["GET", "POST"]) #done
+@api.route("/person/<string:title>/<string:name>&<string:born>&<string:company_name>", methods=["GET", "POST"])
 def create_person_node(name, born, title, company_name):
     query = """
     create (p:Person {Name: $name, Title: $title, Born: $born, Company: $company_name })
@@ -82,7 +82,7 @@ def create_person_node_by_file():
     return "Success !!!"
 
 
-@api.route("/mkrelate/<string:title>/<string:name>&<string:company_name>", methods=["GET", "POST"]) #done
+@api.route("/mkrelate/<string:title>/<string:name>&<string:company_name>", methods=["GET", "POST"])
 def make_ceo_company_relationship(title, name, company_name):
 
     if title == "CEO" or "ceo":
@@ -102,7 +102,7 @@ def make_ceo_company_relationship(title, name, company_name):
         return (str(e))
 
 
-@api.route("/person/display", methods=["GET", "POST"]) #done
+@api.route("/person/display", methods=["GET", "POST"])
 def display_node():
     query = """
     match (p) WHERE p.Title IS NOT NULL return p.Name as Name, p.Born as Born, p.Title as Title, p.Company as Company
@@ -119,7 +119,7 @@ def update_node(company_name, profit):
     return jsonify({'message': 'Company info updated'})
 
 
-@api.route("/delete_relationship/<string:name>/<string:company>", methods=["DELETE"]) #done
+@api.route("/delete_relationship/<string:name>/<string:company>", methods=["DELETE"])
 def delete_relationship(name, company):
 
     query = "MATCH (p:Person)-[rel:CEO]->(c:Company) WHERE p.Name = $name AND c.Company = $company DELETE rel "
@@ -132,7 +132,7 @@ def delete_relationship(name, company):
         return (str('delete function can not be function'))
 
 
-@api.route("/delete_<string:var>/<string:name>", methods=["DELETE"]) #done
+@api.route("/delete_<string:var>/<string:name>", methods=["DELETE"])
 def delete_node(var, name):
 
     if var == "ceo" or "cfo":
